@@ -30,7 +30,7 @@
         <div class="progress-bar"><div id="progress-fill"></div></div>
     </div>
 
-    <h1 id="titre-bar">Fermeture Bar</h1>
+    <h1 id="titre-bar">plop</h1>
 
     <div id="checklist-content">Chargement...</div>
 
@@ -55,7 +55,7 @@
             const data = await resp.json();
             
             configData = data.config;
-            document.getElementById('titre-bar').innerText = configData.nomBar;
+            document.getElementById('titre-bar').innerText = nomBar;
             
             let html = "";
             data.checklist.forEach(section => {
@@ -109,4 +109,5 @@
 </script>
 </body>
 </html>
+
 
