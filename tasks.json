@@ -1,7 +1,7 @@
 {
   "config": {
     "telephone": "33744883138",
-    "nomBar": "LE PETIT BAR",
+    "nomBar": "Rigatoni Corner",
     "titrePage": "Checklist Fermeture Bar"
   },
   "checklist": [
@@ -43,5 +43,6 @@
     }
   ]
 }
+
 
 
