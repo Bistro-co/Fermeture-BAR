@@ -1,22 +1,46 @@
 {
-    "config": {
-        "telephone": "33789745946",
-        "nomBar": "salle"
+  "config": {
+    "telephone": "33789745946",
+    "nomBar": "LE PETIT BAR",
+    "titrePage": "Checklist Fermeture Bar"
+  },
+  "checklist": [
+    {
+      "categorie": "Espace Client (Salle)",
+      "items": [
+        "Nettoyer et désinfecter toutes les tables",
+        "Ranger les chaises et tabourets",
+        "Balayer et laver le sol de la salle",
+        "Éteindre les terrasses et rentrer le mobilier"
+      ]
     },
-    "checklist": [
-        {
-            "categorie": "🍸 ZONE COCKTAILS",
-            "items": ["Plans de travail & Poignées", "Tapis & Speed-racks", "Shakers"]
-        },
-        {
-            "categorie": "☕ MACHINE À CAFÉ",
-            "items": ["Porte-filtres", "Purge groupes", "Stock Café"]
-        },
-        {
-            "categorie": "🧼 LAVE-VERRE & STOCK",
-            "items": ["Filtres nettoyés", "Bouteilles essuyées", "Réappro Pailles"]
-        }
-    ]
+    {
+      "categorie": "Comptoir & Bar",
+      "items": [
+        "Nettoyer la machine à café et les buses vapeur",
+        "Remplir les frigos (bières, softs, jus)",
+        "Laver et ranger les verres",
+        "Vider et nettoyer les bacs de récupération (égouttoirs)",
+        "Nettoyer le plan de travail et les pompes à bière"
+      ]
+    },
+    {
+      "categorie": "Hygiène & Stocks",
+      "items": [
+        "Vider toutes les poubelles (salle et bar)",
+        "Nettoyer et désinfecter les sanitaires",
+        "Vérifier le stock de citrons et de glaçons pour demain"
+      ]
+    },
+    {
+      "categorie": "Sécurité & Fin de service",
+      "items": [
+        "Compter le fond de caisse",
+        "Éteindre les lumières et la musique",
+        "Vérifier que toutes les issues sont bien verrouillées",
+        "Activer l'alarme"
+      ]
+    }
+  ]
 }
-
 
