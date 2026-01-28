@@ -55,7 +55,7 @@
             const data = await resp.json();
             
             configData = data.config;
-            document.getElementById('titre-bar').innerText = configData.nomBar;
+            document.getElementById('titre-bar').innerText = "Fermeture " + configData.nomBar;
             
             let html = "";
             data.checklist.forEach(section => {
@@ -109,4 +109,3 @@
 </script>
 </body>
 </html>
-
