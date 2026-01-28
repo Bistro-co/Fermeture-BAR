@@ -1,0 +1,20 @@
+{
+    "config": {
+        "telephone": "33789745946",
+        "Tâche": "fermeture BAR"
+    },
+    "checklist": [
+        {
+            "categorie": "🍸 ZONE COCKTAILS",
+            "items": ["Plans de travail & Poignées", "Tapis & Speed-racks", "Shakers"]
+        },
+        {
+            "categorie": "☕ MACHINE À CAFÉ",
+            "items": ["Porte-filtres", "Purge groupes", "Stock Café"]
+        },
+        {
+            "categorie": "🧼 LAVE-VERRE & STOCK",
+            "items": ["Filtres nettoyés", "Bouteilles essuyées", "Réappro Pailles"]
+        }
+    ]
+}
